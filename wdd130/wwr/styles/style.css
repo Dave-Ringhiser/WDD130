@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Nanum+Gothic&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto; 
@@ -7,18 +10,23 @@ nav a {
     text-align: center;
     color: #396E93;
     text-decoration: none;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-family: 'Germania One', Arial, sans-serif;
 }
 
 .button-box {
     text-align: center;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
 }
 
 main section {
     text-align: center;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
 }
 
 #background {
@@ -27,10 +35,15 @@ main section {
 
 body {
     background-color:#396E93;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #b3e8d4;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
 }
 
 nav a:hover {
@@ -42,6 +55,11 @@ nav a:hover {
     background-color: #E7C24E;
     color: #396E93;
     text-decoration: none;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -55,31 +73,46 @@ nav a:hover {
 
 .msg {
     background-color: #E7C24E;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #E7C24E;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: #b3e8d4;
+    font-family:'Germania one', Helvetica, Arial;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color: #b3e8d4;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
 }
 
-.msg h2, .msg p {
-    color: #396E93
-}
-
-footer {
+.msg h2{
     color: #396E93;
+    font-family:'Germania one', Helvetica, Arial;
+}
+
+.msg p {
+    color: #396E93;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
     color: #396E93;
     text-decoration: none;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
 }
 
 footer a:hover {
@@ -88,6 +121,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -100,8 +134,34 @@ footer a:hover {
 
 footer p {
     font-size: 1.2em;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
 }
 
 footer p a:hover {
     text-decoration: underline;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #000000;
+}
+
+main section img { 
+    box-sizing: border-box;
 }
