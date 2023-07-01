@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Times+New+Roman');
 
 
 
@@ -16,4 +16,122 @@
 #Cultivationpage1 {
     width: 25%;
     height: 25%;
+}
+
+:root {
+    --heading-font: "IM Fell French Canon SC";
+    --paragraph-font: "Times New Roman", Helvetica, sans-serif;
+    --primary-color: #0D6382   ;
+    --secondary-color: #A3A3A3 ;
+    --accent1-color: #B4D3E5 ;
+    --accent2-color: #D5B0EC ;
+    --headline-color-on-white: #0D6382;  
+    --headline-color-on-color: #D5B0EC; 
+    --paragraph-color-on-white: #0D6382; 
+    --paragraph-color-on-color: #D5B0EC; 
+    --paragraph-background-color: #0D6382;
+    --nav-link-color: #0D6382;
+    --nav-background-color: #B4D3E5;
+    --nav-hover-link-color: #D5B0EC;
+    --nav-hover-background-color: #A3A3A3;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto; 
+    }
+
+nav a {
+    text-align: center;
+    color: #D5B0EC;
+    text-decoration: none;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    padding: 35px;
+}
+
+header {
+    background-color: #0D6382;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a:hover {
+    background-color: #D5B0EC;
+    color: #A3A3A3;
+}
+
+footer {
+    background-color: #0D6382;
+    color: #D5B0EC;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #D5B0EC;
+    text-decoration: none;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    padding: 35px;
+}
+
+footer a:hover {
+    color: #A3A3A3;
+    background-color: #D5B0EC;
+}
+
+#logo_link {
+    padding: 10px;
+    justify-self: center;
+    align-self: center;
+    margin-left: 75px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+main section {
+    text-align: center;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+}
+
+body {
+    background-color:#B4D3E5;
+    color: #0D6382;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#Mainpage1 {
+    float: right;
+    margin: 25px;
+}
+
+#Mainpage2 {
+    float: left;
+    margin: 25px;
+}
+
+#bodybox {
+    position: relative;
+    overflow: hidden;
+    margin: 100px;
+    
+}
+
+#box1 {
+    margin: 25px;
+}
+
+#box2 {
+    margin: 25px;
+    margin-top: 150px;
 }
