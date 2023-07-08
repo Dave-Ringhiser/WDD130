@@ -135,3 +135,15 @@ body {
     margin: 25px;
     margin-top: 150px;
 }
+
+#Settingpage1, #Settingpage2, #Cultivationpage1 {
+    float: right;
+    margin: 25px;
+}
+
+#Cultivationpage2 {
+    float: right;
+    margin: 25px;
+    
+}
+
