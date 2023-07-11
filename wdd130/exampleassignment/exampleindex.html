@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="examplestyle/style.css">
+    <title>Capitals</title>
+</head>
+<script>
+    function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the link that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+    }
+</script>
+<body>
+    <div class="tab">
+        <button class="tablinks" onmouseover="openCity(event, 'Washington')">Washington D.C.</button>
+        <button class="tablinks" onmouseover="openCity(event, 'Berlin')">Berlin</button>
+        <button class="tablinks" onmouseover="openCity(event, 'Canberra')">Canberra</button>
+      </div>
+      
+      <div id="Washington" class="tabcontent">
+        <h3>Washington D.C.</h3>
+        <p>Washington D.C. is the capital city of the United States of America.</p>
+      </div>
+      
+      <div id="Berlin" class="tabcontent">
+        <h3>Berlin</h3>
+        <p>Berlin is the capital of Germany.</p>
+      </div>
+      
+      <div id="Canberra" class="tabcontent">
+        <h3>Canberra</h3>
+        <p>Canberra is the capital of Australia.</p>
+      </div>
+
+      
+</body>
+</html>
